@@ -6,7 +6,7 @@ const contentSecurityPolicy = `
   img-src *;
   script-src 'self' 'unsafe-eval';
   style-src 'self' 'unsafe-inline';
-  connect-src 'self' api.umami.is;
+  connect-src *;
   frame-ancestors *;
 `;
 
