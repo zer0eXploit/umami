@@ -25,7 +25,7 @@ export default function Layout({ title, children, header = true, footer = true, 
       </Head>
 
       {header && <Header />}
-      <main style={...styles}>{children}</main>
+      <main style={styles}>{children}</main>
       {footer && <Footer />}
       <div id="__modals" dir={dir} />
     </>
