@@ -4,8 +4,8 @@ const pkg = require('./package.json');
 const contentSecurityPolicy = `
   default-src 'self';
   img-src *;
-  script-src 'self' 'unsafe-eval';
-  style-src 'self' 'unsafe-inline';
+  script-src 'self' 'unsafe-eval' 'https://x201.t.burmese.ai';
+  style-src 'self' 'unsafe-inline' 'https://x201.t.burmese.ai';
   connect-src *;
   frame-ancestors *;
 `;
